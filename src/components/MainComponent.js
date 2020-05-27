@@ -5,7 +5,7 @@ import Contact from './ContactComponent';
 import About from './AboutComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
-import DishDetail from './DishdetailComponent'
+import DishDetail from './DishDetailComponent'
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
 
@@ -20,9 +20,6 @@ const mapStateToProps = state => {
 }
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const HomePage = () => {
